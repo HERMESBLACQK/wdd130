@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 :root{
           --body-background: white;
           --main-color: #a82d49;
@@ -22,7 +23,7 @@
           }
       
           100% {
-              box-shadow: 0 0 0 20 #a82d49, 0 0 0 40 #a82d49;
+              box-shadow: 0 0 0 20px #a82d49, 0 0 0 40px #a82d49;
           }
       }
 
@@ -33,7 +34,6 @@
           box-sizing: border-box;
           font-size: 62.7%;
 }
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body{
           background-color: var(--body-background);
@@ -165,9 +165,7 @@ li a:hover{
           height: 100%;
           object-fit: cover;
         }
-        .explore-foodscard-text{
-          /* border: 3px solid purple; */
-        }
+       
         .food-cardtittle{
           font-weight: bolder;
           display: block;
@@ -241,6 +239,12 @@ li a:hover{
           font-size: 1.5rem;
           
         }
+        .cart{
+          width: 80%;
+          margin: 0 auto;
+          padding: 30px 50px;
+        }
+
         footer{
           background: var(--main-color);
           padding: 20px 0;
